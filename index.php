@@ -8,32 +8,28 @@
     <title>Accueil</title>
 </head>
 <body>
-<div class="main">
-        <div class="main_form">
-            <form action="admin/login-form-handler.php" method="post">
-                <div>
-                        <label for="input_name">Nom d'utilisateur</label>
-                        <input type="text" name="username" class="name">
-                </div>
-                <div>
-                <label for="input_password" input="password">Mot de passe</label>
-                    <input type="password" name="password">
-                </div>
-                <div class="btn-box-1">
-                    <input type="submit" value="Se connecter" class="button">
-                </div>
-            </form> 
-            <div>
-                <a href="admin/register-form.php"><button class="button">S'inscire</button></a>
-                </div>
-                <div class="btn-box">
-            <a href="index.php"><button class="button1">Retour</button></a>
-            </div>
-            
+<div class="container_form">
+    <form action="login-form-handler.php" method="post" >
+        <div class="container_username">
+           <span> <label for="input_name">Nom d'utilisateur</label></span>
+            <span class="container_username--input"><input type="text" name="username"></span>
+        </div> 
 
-        
-   </div>
+        <div class="container_password">
+            <span><label for="input_password" input="password">Mot de passe</label></span>
+             <span class="container_password--input"><input type="password" name="password"></span>
+        </div>
 
-</div>  
+        <div class="container_form--bouton">
+          <a href=""> <input type="submit" value="Se connecter" class="container_form--bouton--submit"></a>
+            <a href=""><input type="submit" value="S'inscrire" class="container_form--bouton--submit"></a>
+       </div>
+
+    <a href="index.php"><button>Retour</button></a>
+    </form>
 </body>
 </html>
+
+
+
+
