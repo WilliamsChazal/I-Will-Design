@@ -29,7 +29,7 @@
            <input type="submit" value="Envoyer" id="submit"> 
         </div>
     </form>
-    <a href="index.php"><button>Retour</button></a>
+    <a href="admin.php"><button>Retour</button></a>
     <script src="main.js"></script>
 </body>
 </html>

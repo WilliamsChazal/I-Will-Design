@@ -33,7 +33,9 @@ foreach ($result as $projet) {
  <a href="projects-details.php?id=<?=$projet['idprojets']?>"><?=$projet['projets_title']?></a>
     <?php
 }
-?>
+
+?><br>
+<a href="admin.php"><button>Se déconnecter</button></a><br>
    
 </body>
 </html>

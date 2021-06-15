@@ -35,7 +35,7 @@ if($_SESSION['username']){
 
 
 }else{
-    echo 'Remplissez tous les champs';echo '<br><a href=home.php> Retour </a>';} 
+    echo 'Remplissez tous les champs';echo '<br><a href=add-form.php> Retour </a>';} 
 } else {
     echo 'Pour acceder à cette page vous devez publier un projet';}
    } else {
