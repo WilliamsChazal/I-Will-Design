@@ -104,6 +104,7 @@
 
     .navbar__links li {
     text-align: center;
+    background-color: var(--couleur-primaire_transparent);
 }
     .navbar__links li a{
     padding: .75rem .75rem;

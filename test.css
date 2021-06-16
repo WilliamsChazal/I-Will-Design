@@ -67,8 +67,18 @@ body{
   font-size: 100px;
 }
 
+.main_text h1:hover{
+  font-family: 'kremlin';
+  font-size: 100px;
+  letter-spacing: 5px;
+}
+
 .main_text h3{
   color: var(--couleur-secondaire);
+}
+
+.main_text h3:hover{
+  letter-spacing: 5px;
 }
 
 .main_text--button{

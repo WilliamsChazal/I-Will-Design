@@ -20,5 +20,5 @@
 </nav>
 </div>
         <!-- fin Navabr  -->
-<script src="navbar.js"></script>  
+<script src="includes/navbar/navbar.js"></script>  
 </body>
