@@ -1,7 +1,23 @@
 <?php
 session_start();
-?>
 
+if($_SESSION['username']){
+    if(isset($_GET['id']) &&!empty($_GET['id'])) {
+        require_once('db-connect.php');
+        $id = strip_tags($_GET['id']);
+        $sql ='SELECT*FROM `projets` WHERE `idprojets`=:id';
+        $query = $db->prepare($sql);
+        $query->bindValue(':id', $id, PDO::PARAM_INT);
+        $query ->execute();
+        $result = $query->fetch();
+        /* var_dump($result); */
+    }else{
+        echo 'l\'Url n\'est pas valide';
+    }
+}else{
+    echo 'Vous n\'êtes pas identifiez';
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +28,7 @@ session_start();
 </head>
 <body>
 
-            <form action="add-form-handler.php" method="post">
+            <form action="projects-edit-form-handler.php" method="post">
         <div>
             <label for="input_title">Titre</label>
             <input type="text" id="input_title" name="project_title">
@@ -34,10 +50,6 @@ session_start();
             <textarea name="project_specs" id="input_specs" cols="30" rows="10"></textarea>
         </div>
         <div>
-            <label for="input_image">Aperçu</label>
-            <input type="file" id="input_image" name="project_image">
-        </div>
-        <div>
             <label for="input_githublink">Lien GitHub</label>
             <input type="text" id="input_githublink" name="project_githublink">
         </div>
@@ -45,8 +57,8 @@ session_start();
             <label for="input_link">Lien du projet</label>
             <input type="text" id="input_link" name="project_link">
         </div>
-
         <div>
+            <input type="hidden" name="idprojets" value="<?=$result['idprojets']?>">
             <input type="submit">
         </div>
 
@@ -54,3 +66,5 @@ session_start();
 
 </body>
 </html>
+<a href="projects-details.php?id=<?=$result['idprojets']?>"><button>Retour</button></a>
+

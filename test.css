@@ -3,110 +3,67 @@
     --couleur-secondaire:#b10420;
     --couleur-tertiaire:#EDF2F4;
 }
-
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--couleur-tertiaire);
-    color: var(--couleur-primaire_transparent);
-    height: 56px;
+*{
+  margin: 0;
+  padding: 0;
 }
 
-.navbar__title{
-    font-size: 1.5rem;
-    margin: .5rem;
-    margin-left: 1rem;
-    
+nav{
+  display: flex;
+  justify-content: space-between;
+  color: var(--couleur-primaire_transparent);
 }
 
-
-.navbar__links ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-.navbar__links li {
-    list-style: none;
-}
-
-.navbar__links li a {
-    text-decoration: none;
-    color: var(--couleur-primaire_transparent);
-    padding: 1rem;
-    display: block;
-    border: solid 2px var(--couleur-primaire_transparent);
+ul{
+  display: flex;
+  list-style-type: none;
+  width: 500px;
+  justify-content: space-around;
+  font-size: 18px;
 
 }
 
-.navbar__links li a:hover{
-    letter-spacing: 5px;
-    background-color: grey;
-    border: white 1px solid;
+li{
+  width: 200px;
+  text-decoration: none;
+}
+li:hover{
+  background-color: var(--couleur-secondaire);
+  color: var(--couleur-tertiaire);
+  border-radius: 5%;
 }
 
-.toggle-button{
-    position: absolute;
-    top: 1rem;right: 1rem;
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 21px;
+section{
+  height: 00px;
+  background-color: var(--couleur-primaire_transparent);
+  font-family:'Staatliches', sans-serif ;
+}
+.main{
+  background-color:var(--couleur-tertiaire);
+  height: 100vh;
+  font-size: 30px;
+}
+.main_text h1 {
+  font-family: 'kremlin';
+  font-size: 90px;
+}
+.main_text{
+  margin-left: 80px;
+  margin-top: 5rem;
 }
 
-.toggle-button .bar{
-    height: 3px;
-    width: 100%;
-    background-color: white;
-    border-radius: 10px;
+.main_text--button{
+  margin-top: 3rem;
+  background-color: var(--couleur-primaire_transparent);
+  color: white;
+  width: 200px;
+  height: 60px;
+  border-radius: 40px;
+  text-align: center;
+  justify-content: center;
 }
-
-@media  (max-width: 500px) {
-    .toggle-button{
-        display:flex;
-    }
-    .navbar__links{
-        display: none;
-        width: 100%;
-    }
-    .navbar{
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .navbar__links ul {
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .navbar__links li {
-    text-align: center;
+.main_text--button:hover{
+  background-color: var(--couleur-secondaire);
+  color: white;
+  box-shadow: 5px 5px 2px 1px var(--couleur-primaire_transparent);
 }
-    .navbar__links li a{
-    padding: .75rem .75rem;
-}
-    .navbar__links.active{ 
-        display:flex
-    }
-}
-
-
-body, html {
-    height: 70%;
-    
-  }
-  
-  .parallax {
-    /* The image used */
-    background-image: url('../Portfolio/assets/images/brique-2.jpg');
-  
-    /* Full height */
-    height: 100%; 
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }

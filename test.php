@@ -4,40 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="test.css">
-    <title>Document</title>
+    <title>I Will Design</title>
 </head>
 <body>
-<div class="main">
-        <!-- Début Navabr  -->
-        <nav class="navbar" id='navbar'>
-    <div class="navbar__title">I Will Design</div>
-    <a href="#" class="toggle-button" id="toggle__button">
-        
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-    </a>
-    <div class="navbar__links" id="navbar__links">
-        <ul>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="test.php">Test</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="admin/admin.php">Connexion</a></li>   
-        </ul>
-    </div>
-</nav>
-</div>
-        <!-- fin Navabr  -->
-<div class="parallax"></div>
-
-<div style="font-size:36px">
-Scroll Up and Down this page to see the parallax scrolling effect.
-This div is just here to enable scrolling.
-Tip: Try to remove the background-attachment property to remove the scrolling effect.
-</div>
-
-<div class="parallax"></div>
-
+    <section class='main'>
+        <nav>
+            <div>Logo</div>
+            <ul>
+                <li>Qui suis je </li>
+                <li>Que sais je faire</li>
+                <li>Qu'ai je fait</li>
+                <li>contact</li>
+            </ul>
+        </nav>
+        <div class='main_text'><h1 id="main_text--name">Williams Chazal</h1>
+        <h3>WebDesign & Dev'Web</h3>
+            <div class="main_text--button">About me</div>
+        </div>
+    </section>
+    <section></section>
+    <section></section>
+    <footer></footer>
 </body>
 </html>

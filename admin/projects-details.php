@@ -29,6 +29,7 @@ if($_SESSION['username']){
 </head>
 <body>
 <?=$result['projets_title']?> <br>
+<img src="admin/assets/<?= $result['projets_image'] ?>">
 <?=$result['projets_context']?> <br>
 <?=$result['projets_date_debut']?> <br>
 <?=$result['projets_date_fin']?> <br>
@@ -36,6 +37,7 @@ if($_SESSION['username']){
 <?=$result['projets_lien_github']?> <br>
 <?=$result['projets_lien_projet']?> <br>
 
+<a href="projects-edit.php?id=<?=$result['idprojets']?>">Modifier le Projet <?=$result['projets_title']?></a><br>
 <a href="projects-delete.php?id=<?=$result['idprojets']?>">Supprimer <?=$result['projets_title']?></a>
 <a href="home.php"><button>Retour</button></a>
 

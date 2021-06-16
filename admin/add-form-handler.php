@@ -8,7 +8,8 @@ if($_SESSION['username']){
         isset($_POST['project_context'])&&!empty($_POST['project_context'])&&
         isset($_POST['project_specs'])&&!empty($_POST['project_specs'])&&
         isset($_POST['project_githublink'])&&!empty($_POST['project_githublink'])&&
-        isset($_POST['project_link'])&&!empty($_POST['project_link'])
+        isset($_POST['project_link'])&&!empty($_POST['project_link'])&&
+        isset($_POST['project_image'])&&!empty($_POST['project_image'])
     ){
     
     require_once("db-connect.php");
@@ -19,8 +20,9 @@ if($_SESSION['username']){
     $specs =strip_tags($_POST['project_specs']);
     $githublink =strip_tags($_POST['project_githublink']);
     $projetlink =strip_tags($_POST['project_link']);
+    $projetimg =strip_tags($_POST['project_image']);
 
-    $sql ="INSERT INTO projets (projets_title,projets_date_debut,projets_date_fin,projets_context,projets_specs, projets_lien_github,projets_lien_projet) VALUES(:projets_title,:projets_date_debut,:projets_date_fin,:projets_context,:projets_specs,:projets_lien_github,:projets_lien_projet)";
+    $sql ="INSERT INTO projets (projets_title,projets_date_debut,projets_date_fin,projets_context,projets_specs, projets_lien_github,projets_lien_projet, projets_image) VALUES(:projets_title,:projets_date_debut,:projets_date_fin,:projets_context,:projets_specs,:projets_lien_github,:projets_lien_projet,:projets_image)";
     $query = $db ->prepare($sql);
     $query->bindValue(':projets_title', $title, PDO::PARAM_STR);
     $query->bindValue(':projets_date_debut', $begin, PDO::PARAM_STR);
@@ -29,6 +31,7 @@ if($_SESSION['username']){
     $query->bindValue(':projets_specs', $specs, PDO::PARAM_STR);
     $query->bindValue(':projets_lien_github', $githublink, PDO::PARAM_STR);
     $query->bindValue(':projets_lien_projet', $projetlink, PDO::PARAM_STR);
+    $query->bindValue(':projets_image', $projetlink, PDO::PARAM_STR);
     $query->execute();
     echo 'Sucess';
     echo'<br><a href=home.php> Retour </a>';
