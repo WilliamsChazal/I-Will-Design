@@ -43,13 +43,26 @@ section{
   height: 100vh;
   font-size: 30px;
 }
-.main_text h1 {
-  font-family: 'kremlin';
-  font-size: 90px;
+.main_text--aera{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+
 }
 .main_text{
-  margin-left: 80px;
+  margin-left: 2rem;
   margin-top: 5rem;
+
+}
+
+.main_text h1 {
+  font-family: 'kremlin';
+  font-size: 100px;
+}
+
+.main_text h3{
+  color: var(--couleur-secondaire);
 }
 
 .main_text--button{
@@ -61,7 +74,9 @@ section{
   border-radius: 40px;
   text-align: center;
   justify-content: center;
+  padding-top: 20px;
 }
+
 .main_text--button:hover{
   background-color: var(--couleur-secondaire);
   color: white;
