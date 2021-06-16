@@ -20,12 +20,16 @@
                 <li>contact</li>
             </ul>
         </nav>
-            <div class='main_text--aera'>
-                <div class='main_text'><h1>Williams Chazal</h1>
-                <h3>WebDesign & Dev'Web</h3>
-                <div class="main_text--button">Qui suis je </div>
+
+            <div class='main_text'>
+                <div class='main_text--aera'>
+                    <h1>Williams Chazal</h1>
+                    <h3>WebDesign & Dev'Web</h3>
+                        <div class="main_text--button">
+                        Qui suis je </div>
+                </div>
+                <div class="main_text--socials"></div>
             </div>
-        </div>
     </section>
     <section></section>
     <section></section>
