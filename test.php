@@ -1,39 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet" rel="stylesheet">
-    <link rel="stylesheet" href="test.css">
-    <title>I Will Design</title>
-</head>
-<body>
+<?php include ('header.php')?>
 <?php include ('includes/navbar/navbar.php')?>
-<!-- <nav>
-            <div>Logo</div>
-            <ul>
-                <li>Qui suis je </li>
-                <li>Que sais je faire</li>
-                <li>Qu'ai je fait</li>
-                <li>contact</li>
-                <button>Dark mode</button>
-            </ul>
-        </nav> -->
     <section class='main'>
             <div class='main_text'>
                 <div class='main_text--aera'>
-                    <h1><?php include ('assets/animations/titre-animation-1.php')?></h1>
-                    <div> <h3 class="main_text--slogan">"Des idées au pluriel"</h3></div>
-                    <h2 class='bounce-in-right'>WebDesign & Dev'Web</h2>
+                     <h1 class='bounce-in-left'>Williams Chazal</h1>
+                    <div class='bounce-in-left'> <h3 class="main_text--slogan">"Des idées au pluriel"</h3></div>
+                    <h2 class='bounce-in-right'>WebDesign &nbsp; <span id="blue_text">Dev'Web</span></h2>
                         <div class="main_text--button">
                         Portfolio </div>
                 </div>
-                <div class="main_text--socials"></div>
             </div>
     </section>
-    <section></section>
+    <section class="about-me">
+        <div class="about-me_information">
+            <h2>Qui suis je ?</h2>
+            <p>Hello Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam officiis cum laboriosam ullam corporis assumenda dolores ex illum consectetur accusamus, expedita, perspiciatis illo odit sed sapiente debitis laudantium hic fuga.
+            Amet quia qui aliquam quod, repellendus porro impedit soluta itaque veniam? A adipisci facere temporibus quam culpa aspernatur quibusdam est magni distinctio expedita. Sed vel error modi, sequi et ipsam!</p>
+        </div>
+        <div class="about-me_photo"></div>
+    </section>
     <section></section>
     <footer></footer>
 </body>
