@@ -17,8 +17,13 @@
             <li><a href="admin/admin.php">Connexion</a></li>   
         </ul>
     </div>
+    
 </nav>
 </div>
+<div class="progress-container">
+     <div class="progress-bar" id="progress-bar"></div>
+ </div>
+
         <!-- fin Navabr  -->
 <script src="includes/navbar/navbar.js"></script>  
 
