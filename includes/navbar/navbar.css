@@ -13,8 +13,8 @@
     color: var(--couleur-tertiaire);
     width: 100%;
     height: 56px;
-    border: var(--couleur-primaire_transparent) solid 3px;
     font-family: 'Staatliches', cursive;
+    border-bottom: var(--couleur-tertiaire) 3px solid;
 
 }
 
@@ -54,6 +54,7 @@
     letter-spacing: 5px;
     background-color: var(--couleur-secondaire);
     color: var(--couleur-tertiaire);
+    border: var(--couleur-tertiaire) 2px solid;
     border-radius: 5%;
 }
 

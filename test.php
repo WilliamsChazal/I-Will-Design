@@ -10,7 +10,7 @@
                      <h1 class='bounce-in-left'>Williams Chazal</h1>
                     <div class='bounce-in-left'> <h3 class="main_text--slogan">"Des idées au pluriel"</h3></div>
                     <div class="main_text--metier"><h2 class='bounce-in-right'>WebDesign  <span id="blue_text">Dev'Web</span></h2></div>
-                        <a href="#portfolio_ancre"><div class="main_text--button">
+                        <a href="/Portfolio/includes/projets/projets.php"><div class="main_text--button">
                         Portfolio </div></a>
                 </div>
             </div>
@@ -32,13 +32,7 @@
     <section class='skills'>Que sais je faire.</section>
 
     <section class='portfolio' id="portfolio_ancre">
-        <h2>Portfolio</h2>
-            <div class="portfolio_projects--container">
-                <div class="portfolio_projects--cards"></div>
-                <div class="portfolio_projects--cards"></div>
-                <div class="portfolio_projects--cards"></div>
-                <div class="portfolio_projects--cards"></div>
-        </div>
+    <?php include ('includes/projets/projets.php')?>
     </section>
 
     <section class='contact'>

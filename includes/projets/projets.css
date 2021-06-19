@@ -1,0 +1,42 @@
+:root{
+    --couleur-primaire_transparent:#071430;
+    --couleur-secondaire:#b10420;
+    --couleur-tertiaire:#EDF2F4;
+    --couleur-degrade:linear-gradient(rgba(07,14,30, 0.5) rgba(217,4,21, 0.5));
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    color: var(--couleur-tertiaire);
+    font-family: 'Staatliches', cursive;
+    background-color: var(--couleur-primaire_transparent);
+  }
+  
+  .portfolio h2{
+     
+    text-align: center;
+    letter-spacing: 5px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    font-size: 48px;
+    color: var(--couleur-tertiaire);
+  }
+  
+  .portfolio_projects--container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+  }
+  .portfolio_projects--cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: white 2px solid;
+    height: 500px;
+    width: 350px;
+  }
+  .portfolio_projects--cards--texte{
+      align-items: center;
+  }
