@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="includes/navbar/navbar.css">
-<body>
+
+
 <!-- Début Navabr  -->
 <nav class="navbar" id='navbar'>
     <div class="navbar__title">I Will Design</div>
@@ -21,4 +21,4 @@
 </div>
         <!-- fin Navabr  -->
 <script src="includes/navbar/navbar.js"></script>  
-</body>
+

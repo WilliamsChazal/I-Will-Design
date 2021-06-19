@@ -1,8 +1,29 @@
 :root{
-    --couleur-primaire_transparent:rgba(07,14,30);
+    --couleur-primaire_transparent:#071430;
     --couleur-secondaire:#b10420;
     --couleur-tertiaire:#EDF2F4;
+    --couleur-degrade:linear-gradient(rgba(07,14,30, 0.5) rgba(217,4,21, 0.5));
 }
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
 @font-face {
   font-family:'kremlin';
   src: url(assets/fonts/kremlin.ttf) format('truetype');
@@ -18,15 +39,14 @@
 body{
   background-color: var(--couleur-tertiaire);
 }
+/* Debut CSS section main*/
 .main{
-  display: flex;
-  flex-direction: column;
+/*   display: flex;
+  flex-direction: column; */
   background-color:var(--couleur-tertiaire);
   height: 80vh;
   font-size: 30px;
 }
-
-
 
 .main_text{
   display: flex;
@@ -55,14 +75,14 @@ body{
 .main_text h1 {
   color: var(--couleur-primaire_transparent);
   font-family: 'kremlin';
-  font-size: 100px;
+  font-size: 126px;
 }
 
-.main_text h1:hover{
+/* .main_text h1:hover{
   font-family: 'kremlin';
-  font-size: 100px;
+  font-size: 126px;
   letter-spacing: 5px;
-}
+} */
 
 .main_text h2{
   color: var(--couleur-secondaire);
@@ -103,7 +123,11 @@ body{
   color: white;
   box-shadow: 5px 5px 2px 1px var(--couleur-primaire_transparent);
 }
+/* Fin CSS section main*/
 
+
+
+/* Début CSS section about-me*/
 .about-me{
   display: flex;
   flex-direction: row;
@@ -164,11 +188,11 @@ body{
   color: white;
   box-shadow: 5px 5px 2px 1px var(--couleur-tertiaire);
 }
+/* Fin CSS section about-me*/
 
 
 
-
-
+/* Début CSS section skills*/
 .skills{
   display: flex;
   flex-direction: column;
@@ -177,6 +201,10 @@ body{
   font-family: 'Staatliches', cursive;
   background-color: var(--couleur-tertiaire);
 }
+
+/* Fin CSS section skills*/
+
+/* Début CSS section portfolio*/
 .portfolio{
   display: flex;
   flex-direction: column;
@@ -185,16 +213,33 @@ body{
   font-family: 'Staatliches', cursive;
   background-color: var(--couleur-primaire_transparent);
 }
+
+/* Fin CSS section portfolio*/
+
+
+/* Début CSS section contact*/
 .contact{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  height: 100vh;
+  align-items: center;
+  height: 80vh;
   font-family: 'Staatliches', cursive;
   background-color: var(--couleur-tertiaire);
+  padding-top: 20px;
+}
+.contact_titre{
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 34px;
 }
 
-@media only screen and (max-width: 650px){
+
+
+/* Fin CSS section contact*/
+
+
+
+@media only screen and (max-width: 1024px){
 /*   .main{
     display: flex;
     justify-content: space-around;

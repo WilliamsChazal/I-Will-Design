@@ -1,5 +1,6 @@
 <?php include ('header.php')?>
 <?php include ('includes/navbar/navbar.php')?>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     <section class='main'>
 <!--         <div class="main_ink">
             <img src="assets/images/ink-1.png" alt=""> -->
@@ -8,7 +9,7 @@
                 <div class='main_text--aera'>
                      <h1 class='bounce-in-left'>Williams Chazal</h1>
                     <div class='bounce-in-left'> <h3 class="main_text--slogan">"Des idées au pluriel"</h3></div>
-                    <div class="main_text--metier"><h2 class='bounce-in-right'>WebDesign &nbsp; <span id="blue_text">Dev'Web</span></h2></div>
+                    <div class="main_text--metier"><h2 class='bounce-in-right'>WebDesign  <span id="blue_text">Dev'Web</span></h2></div>
                         <div class="main_text--button">
                         Portfolio </div>
                 </div>
@@ -16,7 +17,7 @@
     </section>
     <section class="about-me">
         <div class="about-me_information">
-            <h2>Qui suis je ?</h2><!-- <div class="socials">insta&nbsp;linkd&nbsp;git</div> -->
+            <h2>Qui suis je ?</h2>
             <p>Hello Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam officiis cum laboriosam ullam corporis assumenda dolores ex illum consectetur accusamus, expedita, perspiciatis illo odit sed sapiente debitis laudantium hic fuga.
             Amet quia qui aliquam quod, repellendus porro impedit soluta itaque veniam? A adipisci facere temporibus quam culpa aspernatur quibusdam est magni distinctio expedita. Sed vel error modi, sequi et ipsam!</p>
                 <div class="about-me_information--button">
@@ -29,8 +30,18 @@
         
     </section>
     <section class='skills'>Que sais je faire.</section>
+
     <section class='portfolio'>Ce que j'ai déja fait</section>
-    <section class='contact'>formulaire</section>
-    <footer></footer>
+
+    <section class='contact'>
+        <div class="contact_titre"><h3>Contactez moi</h3></div>
+<!--         <div class="contact_texte"></div> -->
+        <div class="form">
+        <?php include ('includes/contact-form/index.php')?>
+        </div>
+    </section>
+ 
+    <?php include ('includes/footer/footer.php')?>
+  <script src="scripts/main.js"></script>  
 </body>
 </html>
