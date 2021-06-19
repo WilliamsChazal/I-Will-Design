@@ -4,24 +4,32 @@
     --couleur-tertiaire:#EDF2F4;
     --couleur-degrade:linear-gradient(rgba(07,14,30, 0.5) rgba(217,4,21, 0.5));
 }
+html{
+  scroll-behavior: smooth;
+}
+a{
+  text-decoration: none;
+}
+
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
   bottom: 20px; /* Place the button at the bottom of the page */
   right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
+  border: solid 2px var(--couleur-tertiaire); /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: red; /* Set a background color */
+  background-color: var(--couleur-primaire_transparent); /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
   border-radius: 10px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
+  font-family: 'Staatliches', cursive;
+  z-index: 2;
 }
 
 #myBtn:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
+  background-color: var(--couleur-secondaire); /* Add a dark-grey background on hover */
 }
 
 @font-face {
@@ -197,7 +205,7 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
+  height: 70vh;
   font-family: 'Staatliches', cursive;
   background-color: var(--couleur-tertiaire);
 }
@@ -205,15 +213,35 @@ body{
 /* Fin CSS section skills*/
 
 /* Début CSS section portfolio*/
-.portfolio{
+.portfolio {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  text-align: center;
   height: 100vh;
+  color: var(--couleur-tertiaire);
   font-family: 'Staatliches', cursive;
   background-color: var(--couleur-primaire_transparent);
 }
 
+.portfolio h2{
+  align-items: center;
+  letter-spacing: 5px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  font-size: 48px;
+  color: var(--couleur-tertiaire);
+}
+
+.portfolio_projects--container{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+.portfolio_projects--cards{
+  border: white 2px solid;
+  height: 500px;
+  width: 300px;
+}
 /* Fin CSS section portfolio*/
 
 

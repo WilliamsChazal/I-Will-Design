@@ -1,12 +1,3 @@
-const toggleButton= document.getElementById('toggle__button');
-const navbarLinks= document.getElementById('navbar__links');
-
-/* toggleButton.addEventListener('click', () =>{
-    navbarLinks.classList.toggle('active') */
-    toggleButton.addEventListener('click', function () {     
-        navbarLinks.classList.toggle('active');
-})
-
 //Get the button:
 mybutton = document.getElementById("myBtn");
 
@@ -26,3 +17,7 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+
+
+
