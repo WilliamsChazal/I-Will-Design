@@ -8,6 +8,7 @@ const navbarLinks= document.getElementById('navbar__links');
 })
 
 
+
 /* window.onscroll = function() {myFunction()};
 
 let navbar = document.getElementById("navbar");
