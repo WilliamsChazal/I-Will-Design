@@ -3,7 +3,33 @@
     --couleur-secondaire:#b10420;
     --couleur-tertiaire:#EDF2F4;
 }
-
+#container{
+    z-index: 99;
+}
+#progress-container{
+    padding-top: 82px;
+    background-color: var(--couleur-tertiaire); 
+  }
+  .progress-bar {
+    background-color: var(--couleur-secondaire);
+   /* position: absolute; */
+    /* display: flex; */
+    flex-direction: row;
+    top: -56px;
+    width: 100%;
+    height: 10px;
+    transition: top 0.8s;
+ 
+   }
+  .progress-bar a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+   }
+  .progress-bar a:hover {
+    background-color: lightgrey;
+    color: black;
+   }
 .navbar{
     position: absolute;
     display: flex;

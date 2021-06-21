@@ -16,28 +16,7 @@ html{
 a{
   text-decoration: none;
 }
-.progress-container{
-  background-color: red;;
-}
-/* .progress-bar {
-  background-color: black;
-  position: fixed;
-  display: flex;
-  flex-direction: row;
-  top: -56px;
-  width: 100%;
-  height: 20px;
-  transition: top 0.8s;
- }
-.progress-bar a {
-  color: white;
-  padding: 16px;
-  text-decoration: none;
- }
-.progress-bar a:hover {
-  background-color: lightgrey;
-  color: black;
- } */
+
 
 #myBtn {
   display: none; /* Hidden by default */

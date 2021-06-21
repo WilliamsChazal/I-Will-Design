@@ -2,9 +2,7 @@
 <?php include ('header.php')?>
 <?php include ('includes/navbar/navbar.php')?>
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-<div class="progress-container">
-     <div class="progress-bar" id="progress-bar"></div>
- </div>
+
     <section class='main'>
 <!--         <div class="main_ink">
             <img src="assets/images/ink-1.png" alt=""> -->
