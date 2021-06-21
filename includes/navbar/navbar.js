@@ -9,7 +9,7 @@ const navbarLinks= document.getElementById('navbar__links');
 
 
 
-/* window.onscroll = function() {myFunction()};
+window.addEventListener('scroll', function(){myFunction()})
 
 let navbar = document.getElementById("navbar");
 let sticky = navbar.offsetTop;
@@ -21,4 +21,3 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
- */

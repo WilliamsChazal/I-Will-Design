@@ -12,8 +12,8 @@
     <div class="navbar__links" id="navbar__links">
         <ul>
             <li><a href="index.php">Home</a></li>
-            <li><a href="test.php">Test</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="includes/projets/projets.php">Projets</a></li>
+            <li><a href="#projet_ancre">Contact</a></li>
             <li><a href="admin/admin.php">Connexion</a></li>   
         </ul>
     </div>

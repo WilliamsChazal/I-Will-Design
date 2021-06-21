@@ -11,10 +11,37 @@
                     <div class="portfolio_projects--cards--image"><img src="assets/images/goov.svg" alt=""></div>
                     <div class="portfolio_projects--cards--texte">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quibusdam eos dolorum laborum sed dicta, voluptate praesentium maiores fuga at sunt non repellat minus nostrum odio sequi? Numquam, alias placeat.
                     </div>
-                    <div class="portfolio_projects--cards--btn"><button>voir le projet</button></div>
+                    <div class="portfolio_projects--cards--btn" id='btn_modal'><button>voir le projet</button> </div>
                 </div>
                 <div class="portfolio_projects--cards"></div>
                 <div class="portfolio_projects--cards"></div>
                 <div class="portfolio_projects--cards"></div>
         </div>
+<div id="myModal" class="modal">
+
+<!-- Modal content -->
+<div class="modal-content">
+  <span class="close">&times;</span>
+  <div class="modal_projet">
+
+        <div class="modal_projet--container">
+            <span class="modal_projet--container--logo"><img src="../../assets/images/goov.svg" alt="" class='modal_projet--logo'></span>
+            <span><h2>Projet 1</h2></span>
+        
+        </div>
+
+        <span class='modal_projet--image'><img src="../assets/images/ciel-1.jpg" alt="" class='modal_image'></span>
+
+        <span class='modal_projet--contexte'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+
+        <span class='modal_projet--contexte'></span>
+
+        <span class='modal_projet--bouton'><button>Github</button>&nbsp;<button>Dossier de conception</button></span>
+        
+        <span class='modal_projet--website'><button>Visiter le site</button></span>
+    </div>
+</div>
+
+</div>
     </section>
+    <script src="projets.js"></script>

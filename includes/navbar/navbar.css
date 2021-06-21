@@ -5,7 +5,7 @@
 }
 
 .navbar{
-    position: fixed;
+    position: absolute;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -76,7 +76,15 @@
     border-radius: 10px;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 
+.sticky + .content {
+    padding-top: 60px;
+  }
 
 
 @media  (max-width: 1024px) {

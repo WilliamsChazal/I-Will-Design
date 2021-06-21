@@ -39,7 +39,7 @@
     <?php include ('includes/projets/projets.php')?>
     </section>
 
-    <section class='contact'>
+    <section class='contact' id="projet_ancre">
         <div class="contact_titre"><h3>Contactez moi</h3></div>
 <!--         <div class="contact_texte"></div> -->
         <div class="form">
