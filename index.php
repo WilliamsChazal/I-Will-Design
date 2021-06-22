@@ -1,8 +1,9 @@
 
 <?php include ('header.php')?>
 <?php include ('includes/navbar/navbar.php')?>
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<div class="socials_box"><?php include ('includes/socials/socials.php')?></div>
     <section class='main'>
         </div>
             <div class='main_text'>

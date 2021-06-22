@@ -17,7 +17,12 @@ a{
   text-decoration: none;
 }
 
+ /* .socials_box{
+  flex-direction: row;
+  display: flex;
+  justify-content: flex-end;
 
+}  */
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
