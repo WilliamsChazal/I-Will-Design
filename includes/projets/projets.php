@@ -2,7 +2,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&
     display=swap" rel="stylesheet" rel="stylesheet">
 <link rel="stylesheet" href="projets.css">
-
+<a href="../../index.php"><button>retour</button></a>
 <section class='portfolio' id="portfolio_ancre">
         <h2>Portfolio</h2>
             <div class="portfolio_projects--container">

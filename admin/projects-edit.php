@@ -46,6 +46,10 @@ if($_SESSION['username']){
             <textarea name="project_context" id="input_context" cols="30" rows="10"></textarea>
         </div>
         <div>
+            <label for="input_image">Aperçu</label>
+            <input type="file" id="input_image" name="project_image">
+        </div>
+        <div>
             <label for="input_specs">Spécifications fonctionnelles</label>
             <textarea name="project_specs" id="input_specs" cols="30" rows="10"></textarea>
         </div>

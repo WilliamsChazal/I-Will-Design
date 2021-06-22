@@ -10,10 +10,11 @@
 .portfolio {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
     color: var(--couleur-tertiaire);
     font-family: 'Staatliches', cursive;
     background-color: var(--couleur-primaire_transparent);
+    padding-bottom: 60px;
   }
   
   .portfolio h2{

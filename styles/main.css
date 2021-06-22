@@ -275,11 +275,14 @@ body{
 
 
 @media only screen and (max-width: 1024px){
-
+/*   .main_container{
+width: 100%;
+  } */
   .main_text--aera{
     margin-left: 30px;
     margin-top: 10rem;
     margin-bottom: 5rem;
+ 
   }
   .main_text{
     display: flex;

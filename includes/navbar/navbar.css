@@ -114,6 +114,9 @@
 
 
 @media  (max-width: 1024px) {
+    .navbar__title{
+        font-size: 2rem;
+    }
     .toggle-button{
         display:flex;
     }
