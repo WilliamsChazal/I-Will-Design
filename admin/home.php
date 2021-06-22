@@ -27,14 +27,13 @@ if($_SESSION['username']){
     <a href="add-form.php"><button>Ajouter un projet</button></a><br>
 
 <?php
-
-foreach ($result as $projet) {
- ?>
+    foreach ($result as $projet) {
+?>
  <a href="projects-details.php?id=<?=$projet['idprojets']?>"><?=$projet['projets_title']?></a>
-    <?php
-}
-
-?><br>
+<?php
+    }
+?>
+<br>
 <a href="admin.php"><button>Retour</button></a><br>
    
 </body>

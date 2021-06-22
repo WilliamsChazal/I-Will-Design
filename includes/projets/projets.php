@@ -3,39 +3,38 @@
         <h2>Portfolio</h2>
         <div><?php include ('includes/timeline/timeline.php')?></div>
             <div class="portfolio_projects--container">
+            <?php
+                foreach ($result as $projet) {
+            ?>
                 <div class="portfolio_projects--cards">
-                    <div class="portfolio_projects--cards--titre"><h3>Projet 1</h3></div>
-                    <div class="portfolio_projects--cards--image"><img src="assets/images/goov.svg" alt=""></div>
-                    <div class="portfolio_projects--cards--texte">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quibusdam eos dolorum laborum sed dicta, voluptate praesentium maiores fuga at sunt non repellat minus nostrum odio sequi? Numquam, alias placeat.
+                <div class="portfolio_projects--cards--titre"><h3><?=$projet['projets_title']?></h3></div>
+                    <div class="portfolio_projects--cards--image"><img src="assets/images/<?=$projet['projets_imagee']?>" alt=""></div>
+                    <div class="portfolio_projects--cards--texte"><?=$projet['projets_context']?>
                     </div>
-                    <div class="portfolio_projects--cards--btn" id='btn_modal'><button class="projet_button">voir le projet</button> </div>
+                    <div class="portfolio_projects--cards--btn" id='btn_modal'><a href="includes/modal/modal.php?id=<?=$projet['idprojets']?>"><button class="projet_button">voir le projet</button></a></div>
+<!--                     <div class="portfolio_projects--cards--btn" id='btn_modal'><button class="projet_button">voir le projet</button> </div> -->
                 </div>
+
+                <?php
+                    }
+                ?>
+<!--                 <div class="portfolio_projects--cards"></div>
                 <div class="portfolio_projects--cards"></div>
-                <div class="portfolio_projects--cards"></div>
-                <div class="portfolio_projects--cards"></div>
+                <div class="portfolio_projects--cards"></div> -->
         </div>
 <div id="myModal" class="modal">
 
 <!-- Modal content -->
+
 <div class="modal-content">
   <span class="close">&times;</span>
   <div class="modal_projet">
 
-        <div class="modal_projet--container">
-            <span class="modal_projet--container--logo"><img src="assets/images/goov.svg" alt="" class='modal_projet--logo'></span>
-            <span><h2>Projet 1</h2></span>
-        
-        </div>
-        <div class="modal_texte--container">
-            <div class="modal_projet--contexte">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                <div class='modal_projet--contexte'>spécificité technique</div>
-                <div class='modal_projet--bouton'><button>Github</button>&nbsp;<button>Dossier de conception</button></div>
-                <div class='modal_projet--website'>Visiter le site</div>
-            </div>
-            <div class="portfolio_projects--cards--image"><img src="assets/images/ciel-1.jpg" alt="" class='modal_image'></div>
+  <?php include ('includes/modal/modal.php')?>
+
+
 
 </div>
 
-</div>
     </section>
     

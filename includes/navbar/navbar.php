@@ -3,7 +3,7 @@
 <!-- Début Navabr  -->
 <div id="container">
     <nav class="navbar" id='navbar'>
-        <div class="navbar__title"> <a href="includes/socials/socials.php">  I Will Design</a></div>
+        <div class="navbar__title">   I Will Design</div>
         <a href="#" class="toggle-button" id="toggle__button">
             
             <span class="bar"></span>

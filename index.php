@@ -1,3 +1,11 @@
+<?php
+    require_once('admin/db-connect.php');
+    $_sql = 'SELECT * FROM `projets`';
+    $query = $db->prepare($_sql);
+    $query ->execute();
+    $result = $query->fetchALL(PDO::FETCH_ASSOC);
+?>
+
 
 <?php include ('header.php')?>
 <?php include ('includes/navbar/navbar.php')?>
