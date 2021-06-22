@@ -29,7 +29,7 @@ if($_SESSION['username']){
 </head>
 <body>
 <?=$result['projets_title']?> <br>
-<img src="admin/assets/<?= $result['projets_image'] ?>">
+<img src="../assets/images/admin_img/<?= $result['projets_image'] ?>">
 <?=$result['projets_context']?> <br>
 <?=$result['projets_date_debut']?> <br>
 <?=$result['projets_date_fin']?> <br>

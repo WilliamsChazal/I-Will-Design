@@ -49,4 +49,5 @@
     background-color: var(--couleur-secondaire);
     color: var(--couleur-tertiaire);
     border-radius: 20px;
+    border:  var(--couleur-tertiaire) 2px solid;;
 }

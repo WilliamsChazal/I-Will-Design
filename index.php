@@ -4,20 +4,18 @@
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
     <section class='main'>
-<!--         <div class="main_ink">
-            <img src="assets/images/ink-1.png" alt=""> -->
         </div>
             <div class='main_text'>
                 <div class='main_text--aera'>
                      <h1 class='bounce-in-left'>Williams Chazal</h1>
                     <div class='bounce-in-left'> <h3 class="main_text--slogan">"Des idées au pluriel"</h3></div>
                     <div class="main_text--metier"><h2 class='bounce-in-right'>WebDesign  <span id="blue_text">Dev'Web</span></h2></div>
-                        <a href="#portfolio_ancre"><div class="main_text--button">
+                        <a href="#projet_ancre"><div class="main_text--button">
                         Portfolio </div></a>
                 </div>
             </div>
     </section>
-    <section class="about-me">
+    <section class="about-me" id="about-me_ancre">
         <div class="about-me_information">
             <h2>Qui suis je ?</h2>
             <p>Hello Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam officiis cum laboriosam ullam corporis assumenda dolores ex illum consectetur accusamus, expedita, perspiciatis illo odit sed sapiente debitis laudantium hic fuga.
@@ -31,13 +29,13 @@
         </div>
         
     </section>
-    <section class='skills'>Que sais je faire.</section>
+    <section class='skills' id='skills_ancre'>Que sais je faire.</section>
 
-    <section class='portfolio' id="portfolio_ancre">
+    <section class='portfolio' id="projet_ancre">
     <?php include ('includes/projets/projets.php')?>
     </section>
 
-    <section class='contact' id="projet_ancre">
+    <section class='contact' id="contact_ancre">
         <div class="contact_titre"><h3>Contactez moi</h3></div>
 <!--         <div class="contact_texte"></div> -->
         <div class="form">
@@ -48,6 +46,6 @@
     <?php include ('includes/footer/footer.php')?>
     
   <script src="scripts/main.js"></script>  
-
+  <script src="includes/projets/projets.js"></script>
 </body>
 </html>

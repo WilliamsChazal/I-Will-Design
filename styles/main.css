@@ -219,37 +219,7 @@ body{
 
 /* Fin CSS section skills*/
 
-/* Début CSS section portfolio*/
-/* .portfolio {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  height: 100vh;
-  color: var(--couleur-tertiaire);
-  font-family: 'Staatliches', cursive;
-  background-color: var(--couleur-primaire_transparent);
-}
 
-.portfolio h2{
-  align-items: center;
-  letter-spacing: 5px;
-  padding-top: 15px;
-  padding-bottom: 30px;
-  font-size: 48px;
-  color: var(--couleur-tertiaire);
-}
-
-.portfolio_projects--container{
-  display: flex;
-  justify-content: space-around;
-  padding-top: 40px;
-}
-.portfolio_projects--cards{
-  border: white 2px solid;
-  height: 500px;
-  width: 300px;
-} */
-/* Fin CSS section portfolio*/
 
 
 /* Début CSS section contact*/

@@ -12,10 +12,10 @@
         </a>
         <div class="navbar__links" id="navbar__links">
             <ul>
-                <li><a href="index.php">Home</a></li>
-                <li><a href="includes/projets/projets.php">Projets</a></li>
-                <li><a href="#projet_ancre">Contact</a></li>
-                <li><a href="admin/admin.php">Connexion</a></li>   
+                <li><a href="#about-me_ancre">Qui suis je</a></li>
+                <li><a href="#skills_ancre">Que sais je faire</a></li>
+                <li><a href="#projet_ancre">Qu'ai je fais</a></li>
+                <li><a href="#contact_ancre">Contactez moi</a></li>   
             </ul>
         </div>
 </nav>

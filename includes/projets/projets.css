@@ -18,7 +18,6 @@
   }
   
   .portfolio h2{
-     
     text-align: center;
     letter-spacing: 5px;
     padding-top: 25px;
@@ -36,14 +35,64 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     border: white 2px solid;
     height: 500px;
     width: 350px;
   }
-  .portfolio_projects--cards--texte{
-      align-items: center;
-  }
+.portfolio_projects--cards--titre{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 26px;
+}
+.modal_texte--container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  width: 100%;
+  height: 21.7%;
+}
 
+
+.portfolio_projects--cards--image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+.portfolio_projects--cards--texte{
+  align-items: center;
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.projet_button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  background-color: var(--couleur-tertiaire);
+  color: var(--couleur-primaire_transparent);
+  width: 150px;
+  height: 30px;
+  border-radius: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 22px;
+  font-family: 'Staatliches', cursive;
+  outline: none;
+  
+}
+.projet_button:hover{
+  background-color: var(--couleur-secondaire);
+  color: white;
+  box-shadow: 5px 5px 2px 1px var(--couleur-tertiaire);
+  cursor: pointer;
+}
   
 /* The Modal (background) */
 .modal {
@@ -67,6 +116,43 @@
   border: 5px solid var(--couleur-tertiaire);
   color: var(--couleur-primaire_transparent);
   width: 70%; /* Could be more or less, depending on screen size */
+}
+.modal_projet--container{
+
+  display: grid; 
+  grid-template-columns: 0.4fr 1.5fr; 
+  grid-template-rows: 0.5fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "logo Titre"; 
+}
+
+.modal_projet--container--logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio_projects--cards--image{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.modal_projet--logo{
+  width: 100px;
+  height: 100px;
+}
+.modal_image{
+  width: 100%;
+  height: 500px;
+  width: 500px;
+}
+.modal_projet--contexte{
+  text-align: justify;
+  padding: 25px 25px 10px 10px;
+  font-size: 26px;
 }
 
 /* The Close Button */
@@ -97,32 +183,4 @@
 
 
 
-.modal_projet--container{
 
-  display: grid; 
-  grid-template-columns: 0.4fr 1.5fr; 
-  grid-template-rows: 0.5fr; 
-  gap: 0px 0px; 
-  grid-template-areas: 
-    "logo Titre"; 
-}
-
-.modal_projet--container--logo{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.modal_projet--image{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.modal_projet--logo{
-  width: 100px;
-  height: 100px;
-}
-.modal_image{
-  width: 150px;
-  height: 150px;
-}
