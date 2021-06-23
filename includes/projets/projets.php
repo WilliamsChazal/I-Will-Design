@@ -11,7 +11,7 @@
                     <div class="portfolio_projects--cards--image"><img src="assets/images/<?=$projet['projets_imagee']?>" alt=""></div>
                     <div class="portfolio_projects--cards--texte"><?=$projet['projets_context']?>
                     </div>
-                    <div class="portfolio_projects--cards--btn" id='btn_modal'><a href="includes/modal/modal.php?id=<?=$projet['idprojets']?>"><button class="projet_button">voir le projet</button></a></div>
+                    <div class="portfolio_projects--cards--btn" id='btn_modal'><a><button class="projet_button">voir le projet</button></a></div>
 <!--                     <div class="portfolio_projects--cards--btn" id='btn_modal'><button class="projet_button">voir le projet</button> </div> -->
                 </div>
 
