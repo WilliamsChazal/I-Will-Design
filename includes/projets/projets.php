@@ -8,7 +8,7 @@
             ?>
                 <div class="portfolio_projects--cards">
                 <div class="portfolio_projects--cards--titre"><h3><?=$projet['projets_title']?></h3></div>
-                    <div class="portfolio_projects--cards--image"><img src="assets/images/<?=$projet['projets_imagee']?>" alt=""></div>
+                    <div class="portfolio_projects--cards--image"><img src="assets/images/admin_img/<?=$projet['projets_image']?>" alt="" class="projet_image--size"></div>
                     <div class="portfolio_projects--cards--texte"><?=$projet['projets_context']?>
                     </div>
                     <div class="portfolio_projects--cards--btn" id='btn_modal'><a><button class="projet_button">voir le projet</button></a></div>
@@ -26,7 +26,7 @@
 
 <!-- Modal content -->
 
-<div class="modal-content">
+<div class="modal-content" id="demo">
   <span class="close">&times;</span>
   <div class="modal_projet">
 
@@ -37,4 +37,3 @@
 </div>
 
     </section>
-    
