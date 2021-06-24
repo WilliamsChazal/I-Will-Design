@@ -16,13 +16,13 @@
     color: var(--couleur-tertiaire);
     background-color: var(--couleur-primaire_transparent);
     font-family: 'Staatliches', cursive;
-    font-size: 18px;
+    font-size: 26px;
     text-decoration: none;
     display: block;
     margin: 5px;
     padding:20px;
     width: 300px;
-    text-align:right;
+    text-align:left;
     border-radius: 50px;
     border: var(--couleur-tertiaire) 2px solid;
     transition: 1s;
@@ -30,14 +30,14 @@
 }
 
 .social a:hover{
-    transform:translate(140px,0);
+    transform:translate(-140px,0);
 }
 
 .social i{
-    margin-left: 10px;
-    font-size: 30px;
-    width: 30px;
-    height: 30px;
+    margin-right: 28px;
+    font-size: 36px;
+    width: 40px;
+    height: 40px;
 }
 
 .social a:nth-child(1) i{

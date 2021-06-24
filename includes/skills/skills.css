@@ -1,0 +1,22 @@
+.skills{
+      display: flex;
+      flex-direction: column;
+      height: 70vh;
+      font-family: 'Staatliches', cursive;
+      background-color: var(--couleur-tertiaire);
+    }
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr;
+    gap: 0px 30px;
+    grid-auto-flow: row;
+    display: flex;
+    flex-direction: column;
+  }
+/* *{
+    border: red solid 1px;
+} */
+
+  

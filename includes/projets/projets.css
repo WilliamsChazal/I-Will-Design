@@ -187,5 +187,30 @@
 }
 
 
-
-
+@media only screen and (max-width: 1024px){
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  color: var(--couleur-tertiaire);
+  font-family: 'Staatliches', cursive;
+  background-color: var(--couleur-primaire_transparent);
+  padding-bottom: 60px;
+}
+.portfolio_projects--container{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 40px;
+  justify-content: space-around;
+}
+.modal-content {
+  background-color: var(--couleur-tertiaire);
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 5px solid var(--couleur-tertiaire);
+  color: var(--couleur-primaire_transparent);
+  width: 50%; /* Could be more or less, depending on screen size */
+  display: flex;
+  flex-wrap: wrap;
+}
+}

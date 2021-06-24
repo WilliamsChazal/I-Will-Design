@@ -11,7 +11,7 @@
 <?php include ('includes/navbar/navbar.php')?>
 
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-<div class="socials_box"><?php include ('includes/socials/socials.php')?></div>
+
     <section class='main'>
         </div>
             <div class='main_text'>
@@ -23,6 +23,7 @@
                         Portfolio </div></a>
                 </div>
             </div>
+
     </section>
     <section class="about-me" id="about-me_ancre">
         <div class="about-me_information">
@@ -38,7 +39,7 @@
         </div>
         
     </section>
-    <section class='skills' id='skills_ancre'>Que sais je faire.</section>
+    <section ><?php include ('includes/skills/skills.php')?></section>
 
     <section class='portfolio' id="projet_ancre">
     <?php include ('includes/projets/projets.php')?>
