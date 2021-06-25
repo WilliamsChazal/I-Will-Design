@@ -67,6 +67,7 @@ body{
   background-color:var(--couleur-tertiaire);
   height: 100vh;
   font-size: 30px;
+  width: 100%;
 }
 
 .main_text{
@@ -156,6 +157,7 @@ body{
   background-color: var(--couleur-primaire_transparent);
   color: var(--couleur-tertiaire);
   font-family: 'Staatliches', cursive;
+  width: 100%;
 }
 
 .about-me_information{
@@ -211,7 +213,16 @@ body{
 }
 /* Fin CSS section about-me*/
 
-
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  color: var(--couleur-tertiaire);
+  font-family: 'Staatliches', cursive;
+  background-color: var(--couleur-primaire_transparent);
+  padding-bottom: 60px;
+  width: 100vh;
+}
 
 /* Début CSS section skills*/
 
@@ -251,8 +262,8 @@ body{
   }
   .main_text--aera{
     margin-left: 30px;
- /*    margin-top: 2rem;
-    margin-bottom: 5rem; */
+    margin-top: 2rem;
+    margin-bottom: 5rem;
  
   }
   .main_text{

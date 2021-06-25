@@ -15,6 +15,7 @@
     font-family: 'Staatliches', cursive;
     background-color: var(--couleur-primaire_transparent);
     padding-bottom: 60px;
+    width: 100%;
   }
   
   .portfolio h2{

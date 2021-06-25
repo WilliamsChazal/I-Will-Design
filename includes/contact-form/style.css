@@ -36,3 +36,21 @@
     box-shadow: 5px 5px 2px 1px var(--couleur-primaire_transparent);
     letter-spacing: 2px;
   }
+  @media only screen and (max-width: 1024px){
+
+    .contact_form{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 400px;
+      height: 200px;
+      color:var(--couleur-tertiaire);
+      padding-bottom: 60px;
+      padding-top: 60px;
+      background: var(--couleur-degrade);
+      border-radius: 25px;
+      font-size: 26px;
+    }
+
+  }
+
