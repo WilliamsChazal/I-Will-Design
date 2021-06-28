@@ -1,7 +1,7 @@
 .skills{
       display: flex;
       flex-direction: column;
-      height: 70vh;
+      height: 80vh;
       font-family: 'Staatliches', cursive;
       background-color: var(--couleur-tertiaire);
       margin-top: 40px;
@@ -34,7 +34,8 @@
 .container_skills--titre{
   text-align: center;
   color: var(--couleur-secondaire);
-  font-size: 26px;
+  font-size: 28px;
+  margin:20px 20px;
   text-decoration: underline;
 }
 
@@ -51,4 +52,19 @@
 .container_skills--texte{
   display: flex;
   text-align: center;
+}
+
+@media only screen and (max-width: 1024px){
+      .skills{
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+      }
+
+    .container_skills{
+      display: flex;
+      flex-wrap: wrap;
+      height: 100%;
+    }
+
 }

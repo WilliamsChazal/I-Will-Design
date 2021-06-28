@@ -1,5 +1,7 @@
 /* Début CSS section about-me*/
-
+*{
+  border: black 1px solid;
+}
   
   .about-me_information{
     width: 50%;
@@ -22,10 +24,7 @@
     border-radius: 50%;
     border: solid 5px var(--couleur-tertiaire);
   }
-  .socials{
-    display: flex;
-    justify-content: end;
-  }
+
   
   .about-me_information--button{
     display: flex;
