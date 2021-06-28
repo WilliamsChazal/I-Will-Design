@@ -3,17 +3,17 @@
 
     <div class="container_skills">
         <div class="container_skills--conception"><span><h3>Conception</h3></span>
-        <span><img src="" alt=""></span>
+        <span><img src="assets/images/outils-de-conception.png" alt=""  class='skills_image--size'></span>
         <span><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, nam ut facilis doloribus laboriosam maxime optio! Facere, dolor est deserunt ad maiores pariatur delectus. Nesciunt iusto atque consequatur perferendis aliquid!</p></span>
     </div>
     <div class="container_skills">
         <div class="container_skills--realisation"><span><h3>Réalisation</h3></span>
-        <span><img src="" alt=""></span>
+        <span><img src="assets/images/codage-web.png" alt=""  class='skills_image--size'></span>
         <span><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, nam ut facilis doloribus laboriosam maxime optio! Facere, dolor est deserunt ad maiores pariatur delectus. Nesciunt iusto atque consequatur perferendis aliquid!</p></span>
     </div>
     <div class="container_skills">
         <div class="container_skills--communication"><span><h3>Communication</h3></span>
-        <span><img src="" alt=""></span>
+        <span><img src="assets/images/la-communication.png" alt="" class='skills_image--size'></span>
         <span><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, nam ut facilis doloribus laboriosam maxime optio! Facere, dolor est deserunt ad maiores pariatur delectus. Nesciunt iusto atque consequatur perferendis aliquid!</p></span>
     </div>
     
