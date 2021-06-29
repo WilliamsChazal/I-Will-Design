@@ -18,9 +18,7 @@
                 <?php
                     }
                 ?>
-<!--                 <div class="portfolio_projects--cards"></div>
-                <div class="portfolio_projects--cards"></div>
-                <div class="portfolio_projects--cards"></div> -->
+
         </div>
 <div id="myModal" class="modal">
 

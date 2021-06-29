@@ -22,6 +22,13 @@ function myFunction() {
   }
 }
 
+window.onclick = function(event) {
+  if (event.target == navbar) {
+    navbar.classList.display = "none";
+  }
+}
+
+
 window.addEventListener('scroll', function(){
   let  a = document.documentElement.scrollTop; // Permet de voir le nombre de pixels qui ont défilé // 
   console.log("a="+ a); // combien on descend //

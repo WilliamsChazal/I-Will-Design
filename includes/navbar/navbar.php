@@ -4,7 +4,7 @@
 <div id="container">
     <nav class="navbar" id='navbar'>
         <div class="navbar__title">   I Will Design</div>
-        <a href="#" class="toggle-button" id="toggle__button">
+        <a  class="toggle-button" id="toggle__button">
             
             <span class="bar"></span>
             <span class="bar"></span>
@@ -24,11 +24,6 @@
     </div>
 </div>
 
-<!-- <div id="progress-container">
-<div class="progress-bar" id="progress-bar"></div>
- </div> -->
 
-
-        <!-- fin Navabr  -->
 <script src="includes/navbar/navbar.js"></script>  
 
