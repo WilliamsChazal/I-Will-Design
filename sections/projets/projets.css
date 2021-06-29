@@ -10,13 +10,15 @@
     flex-direction: column;
     height: 100%;
     color: var(--couleur-tertiaire);
-    font-family: 'Staatliches', cursive;
+    font-family: 'Oswald', sans-serif;
+    
     background-color: var(--couleur-primaire_transparent);
     padding-bottom: 60px;
     width: 100%;
   }
   
   .portfolio h2{
+    font-family: 'Staatliches', cursive;
     text-align: center;
     letter-spacing: 5px;
     padding-top: 25px;
@@ -72,6 +74,7 @@
 }
 
 .portfolio_projects--cards--texte{
+  font-family: 'Oswald', sans-serif;
   align-items: center;
   text-align: justify;
   padding-left: 10px;
@@ -165,6 +168,7 @@
   text-align: justify;
   padding: 25px 25px 10px 10px;
   font-size: 26px;
+  font-family: 'Staatliches', cursive;
 }
 
 /* The Close Button */
