@@ -31,11 +31,13 @@
     align-items: center;
     font-family: 'Staatliches', cursive;
     font-size: 22px;
+    transition: 0.5s;
   }
   
 .button:hover{
     box-shadow: 5px 5px 2px 1px var(--couleur-primaire_transparent);
     letter-spacing: 2px;
+    transition: 0.5s;
   }
   @media only screen and (max-width: 1024px){
 

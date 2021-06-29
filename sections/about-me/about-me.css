@@ -1,6 +1,4 @@
-*{
-  border: red 1px solid; 
-} 
+
 .about-me{
   display: flex;
   flex-direction: row;
@@ -29,6 +27,7 @@
 }
 .texte_info{
   width: 50%;
+  font-family: 'Roboto Condensed', sans-serif;
 
 }
 
@@ -44,7 +43,7 @@
     justify-content: center;
     background-color: var(--couleur-primaire_transparent);
     color: var(--couleur-tertiaire);
-    font-family: 'Staatliches', cursive;
+    text-align: justify;
   }
   .container_info{
     display: flex;
@@ -53,6 +52,9 @@
  
   .texte_info{
     width: 100%;
+    font-family: 'Oswald', sans-serif;
+    line-height:2em;
+    padding-bottom: 20px;
   }
   .image_info{
     width: 100%;

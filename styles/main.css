@@ -38,7 +38,7 @@ a{
 
 @font-face {
   font-family:'kremlin';
-  src: url(assets/fonts/kremlin.ttf) format('truetype');
+  src: url(../assets/fonts/kremlin.ttf) format('truetype');
 }
 
 *{

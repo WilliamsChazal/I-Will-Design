@@ -1,3 +1,8 @@
+/* *{
+  border: red 1px solid;
+} */
+
+
 .skills{
       display: flex;
       flex-direction: column;
@@ -18,16 +23,13 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    gap: 0px 10px;
+    /* gap: 0px 10px; */
     grid-auto-flow: row;
     display: flex;
     flex-direction: row;
    justify-content: center;
  
   }
-
-
-
 
 .container_skills--titre{
   text-align: center;
@@ -50,6 +52,8 @@
 .container_skills--texte{
   display: flex;
   text-align: center;
+  font-family: 'Oswald', sans-serif;
+  margin: auto;
 }
 
 @media only screen and (max-width: 1024px){
@@ -63,6 +67,16 @@
       display: flex;
       flex-wrap: wrap;
       height: 100%;
+    }
+    .container_skills--texte{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: justify;
+      font-family: 'Oswald', sans-serif;
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: 22px;
     }
 
 }
