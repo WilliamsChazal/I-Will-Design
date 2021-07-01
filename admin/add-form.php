@@ -34,8 +34,12 @@ session_start();
             <textarea name="project_specs" id="input_specs" cols="30" rows="10"></textarea>
         </div>
         <div>
-            <label for="input_image">Aperçu</label>
+            <label for="input_image">Capture du projet</label>
             <input type="file" id="input_image" name="project_image">
+        </div>
+        <div>
+            <label for="input_logo">Logo</label>
+            <input type="file" id="input_logo" name="project_logo">
         </div>
         <div>
             <label for="input_githublink">Lien GitHub</label>

@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="admin_styles/styles_admin.css">
+
 <?php
 session_start();
 
@@ -28,8 +30,9 @@ if($_SESSION['username']){
     <title>Document</title>
 </head>
 <body>
+<img src="../assets/images/admin_logo/<?= $result['projets_logo'] ?>" class='projects_details--logo'>
 <?=$result['projets_title']?> <br>
-<img src="../assets/images/admin_img/<?= $result['projets_image'] ?>">
+<img src="../assets/images/admin_img/<?= $result['projets_image'] ?>" class='projects_details--image'><br>
 <?=$result['projets_context']?> <br>
 <?=$result['projets_date_debut']?> <br>
 <?=$result['projets_date_fin']?> <br>
