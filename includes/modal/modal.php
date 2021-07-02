@@ -13,14 +13,21 @@
     }
 ?>
 
-    <div class="portfolio_projects--cards--titre"><h3><?=$result['projets_title']?></h3></div>
-        <div class="portfolio_projects--cards--image"><img src="assets/images/admin_img/<?=$result['projets_image']?>" alt="" class='modal_image'></div>
-        <div class="portfolio_projects--cards--texte"><?=$result['projets_context']?>
-        <div class="portfolio_projects--cards--texte"><?=$result['projets_specs']?>
-        <div class="portfolio_projects--cards--lien-git"><?=$result['projets_lien_github']?>
-        <div class="portfolio_projects--cards--lien-site"><button> <a href="<?=$result['projets_lien_projet']?>"></button></a>
+    <div class="modal_projects--cards--titre"><h3><?=$result['projets_title']?></h3></div>
+
+       
+
+    <div class="modal_projects--cards--image"><img src="assets/images/admin_img/<?=$result['projets_image']?>" alt="" class='modal_image'></div>
+
+    <div class="modal_projects--cards--texte"><?=$result['projets_context']?></div>
+
+    <div class="modal_projects--cards--texte"><?=$result['projets_specs']?></div>
+        
+    <div class="modal_projects--cards--lien-git"><a href="<?=$result['projets_lien_github']?>" target="_blank" rel="noopener noreferrer"><img src="assets/images/github.png" alt="logo-github" id='github'><span>GitHub du projet</span></></a></div>
+
+    <div class="modal_projects--cards--lien-site" ><a href="<?=$result['projets_lien_projet']?>" target="_blank"> <input type="button" value="Voir le site" id='modalt--button'></a></div>
       
-    </div>
+    
 
 
 

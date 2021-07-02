@@ -46,26 +46,13 @@
   padding-bottom: 10px;
   font-size: 26px;
 }
-.modal_texte--container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  width: 100%;
-  height: 21.7%;
-}
-
-
-.portfolio_projects--cards--image{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 80%;
+.modal_projects--cards--titre{
   padding-top: 10px;
   padding-bottom: 10px;
-
+  font-size: 26px;
 }
+
+
 
 
 #image{
@@ -80,6 +67,7 @@
   padding-left: 10px;
   padding-right: 10px;
 }
+
 .projet_button{
   display: flex;
   align-items: center;
@@ -141,13 +129,32 @@
   grid-template-areas: 
     "logo Titre"; 
 }
+.modal_texte--container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  width: 100%;
+  height: 21.7%;
+}
 
+.modal_projects--cards--titre{
+  text-align: center;
+}
+.modal_projects--cards--texte{
+  font-family: 'Oswald', sans-serif;
+  align-items: center;
+  text-align: justify;
+  padding-top: 20px;
+  padding-right: 10px;
+}
 .modal_projet--container--logo{
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.portfolio_projects--cards--image{
+.modal_projects--cards--image{
   width: 100%;
   display: flex;
   justify-content: center;
@@ -164,12 +171,41 @@
   height:400px;
   width: 600px;
 }
-.modal_projet--contexte{
-  text-align: justify;
-  padding: 25px 25px 10px 10px;
-  font-size: 26px;
+#modalt--button{
+  margin-top: 20px;
+  background-color: var(--couleur-primaire_transparent);
+  color: white;
+  width: 200px;
+  height: 60px;
+  border-radius: 40px;
+  text-align: center;
+  justify-content: center;
   font-family: 'Staatliches', cursive;
+  font-size: 24px;
+  cursor: pointer;
 }
+
+#modalt--button:hover{
+  background-color: var(--couleur-secondaire);
+  color: white;
+  box-shadow: 5px 5px 2px 1px var(--couleur-primaire_transparent);
+}
+.modal_projects--cards--lien-site{
+  display: flex;
+  justify-content: center;
+}
+.modal_projects--cards--lien-git{
+  font-size: 16px;
+  padding-top: 15px;
+}
+.modal_projects--cards--lien-git span {
+  padding-left: 5px;  
+}
+
+#github{
+  width: 20px;
+}
+
 
 /* The Close Button */
 .close {
@@ -221,8 +257,19 @@
   padding: 20px;
   border: 5px solid var(--couleur-tertiaire);
   color: var(--couleur-primaire_transparent);
-  width: 50%; /* Could be more or less, depending on screen size */
   display: flex;
   flex-wrap: wrap;
+}
+
+.modal_image{
+ height: auto;
+ width: 270px;
+}
+.portfolio_projects--cards--image{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 }
