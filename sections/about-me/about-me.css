@@ -27,10 +27,11 @@
   display: flex;
   flex-direction: row;
 }
-.about-me_cv{
-
+/* .about-me_cv{
+  display: flex;
   align-items: flex-end
-}
+  
+} */
 .image_info{
   width: 50%;
   display: flex;

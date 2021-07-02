@@ -85,6 +85,17 @@ body{
     overflow-x: hidden;
     width: 100vw;
   }
+  .contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    width: 100%;
+    font-family: 'Staatliches', cursive;
+    background-color: var(--couleur-tertiaire);
+    padding-top: 20px;
+  }
 }
 
 
