@@ -141,6 +141,8 @@
 
 .modal_projects--cards--titre{
   text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
 }
 .modal_projects--cards--texte{
   font-family: 'Oswald', sans-serif;
