@@ -15,8 +15,9 @@
         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
             <section class='main'>
+                <span>
             <?php include ('sections/landing/landing.php')?>
-
+            </span>
             </section>
             <section class="about-me" id="about-me_ancre">
                 
