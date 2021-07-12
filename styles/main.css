@@ -1,6 +1,6 @@
 :root{
-    --couleur-primaire_transparent:#071430;
-    --couleur-secondaire:#b10420;
+    --couleur-primaire_transparent:#202231;
+    --couleur-secondaire:#8C031A;
     --couleur-tertiaire:#EDF2F4;
     --couleur-degrade:linear-gradient(rgba(07,14,30, 0.5) rgba(217,4,21, 0.5));
 }
